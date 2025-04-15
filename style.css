@@ -1,0 +1,96 @@
+
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #202124;
+}
+
+header nav button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 272px;
+  height: 92px;
+}
+
+.search-container {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px;
+  width: 584px;
+  max-width: 90%;
+}
+
+.search-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.buttons button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5f6368;
+}
